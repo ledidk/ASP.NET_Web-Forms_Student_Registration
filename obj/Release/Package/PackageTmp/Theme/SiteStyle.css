@@ -1,0 +1,117 @@
+﻿body {
+    font: "Trebuchet MS", Verdana, sans-serif;
+    background-color: lightyellow;
+    color: #696969;
+}
+
+#btnAdd {
+    background-color: lightcyan;
+    border-radius: 1px;
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+}
+
+    #btnAdd:hover {
+        border: 2px solid red;
+        cursor: pointer;
+    }
+
+
+#submit{
+    background-color: lightcyan;
+    border-radius: 1px;
+    margin: 10px;
+    width: 70px;
+    height: 20px;
+}
+
+    #submit:hover {
+        border: 2px solid red;
+        cursor: pointer;
+    }
+
+
+
+h1 {
+    font: Georgia, serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+}
+
+
+
+p {
+    font-size: 14px;
+}
+
+.emphsis {
+    font-weight: 500;
+    font-style: italic;
+    color: red;
+}
+
+
+.distinct {
+    color: blue;
+    font: bold;
+}
+
+
+#lblStudentName {
+    border: 2px solid #006;
+    border-style: groove;
+    background: #ffc;
+    width: 15em;
+}
+
+    #lblStudentName:hover {
+        background: #ff6;
+    }
+
+.divStudentInfo {
+    display: flex;
+    margin: 0 5px;
+}
+
+#drpType {
+    border: 2px solid #006;
+    border-style: groove;
+    background: #ffc;
+    width: 15em;
+    //display: inline-flex;
+    //justify-content: center;
+    //align-items: center;
+}
+
+.table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 8px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+    .table th {
+        font-size: 13px;
+        font-weight: normal;
+        padding: 8px;
+        background: #b9c9fe;
+        border-top: 4px solid #aabcfe;
+        border-bottom: 1px solid #fff;
+        color: #039;
+    }
+
+    .table td {
+        padding: 8px;
+        background: #e8edff;
+        border-bottom: 1px solid #fff;
+        color: #669;
+        border-top: 1px solid transparent;
+    }
+
+    .table tr:hover td {
+        background: #d0dafd;
+        color: #339;
+    }
